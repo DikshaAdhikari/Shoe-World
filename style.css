@@ -83,7 +83,7 @@ h3 span {
 .section-title h2 {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     text-transform: capitalize;
     letter-spacing: var(--mainSpacing);
 }
@@ -97,7 +97,35 @@ h3 span {
     grid-column-gap: 1rem;
     grid-row-gap: 2rem;
 }
+.choice{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+.choice span{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
 
+.choice ul{
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    background-color: var(--mainGrey);
+    width: 115px;
+    display: none;
+}
+.choice li{
+    padding: 1px 8px;
+    font-size: 13px;
+}
+.filter-item{
+    left: 25%;
+}
+.sort-item{
+     right: 16%;
+}
 .img-container {
     position: relative;
     overflow: hidden;
