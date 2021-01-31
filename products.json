@@ -12,7 +12,7 @@
         "sys": { "id": "2" },
         "fields": {
           "title": "pink stilettos",
-          "price": 207,
+          "price": 1207,
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1592129706885-dc9986b30464?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTI4fHxmb290d2VhcnxlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
         }
       },
@@ -67,9 +67,9 @@
       {
         "sys": { "id": "9" },
         "fields": {
-          "title": "baby shoes",
-          "price": 199,
-          "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1594150878496-a921e5af8907?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTY2fHxmb290d2VhcnxlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
+          "title": "the browns",
+          "price": 999,
+          "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1601285226941-098e5290de0b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb3R3ZWFyfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60" } } }
         }
       },
       {
@@ -91,9 +91,9 @@
       {
         "sys": { "id": "12" },
         "fields": {
-          "title": "nike cortez",
+          "title": "nike air force",
           "price": 5246,
-          "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1596480370804-cff0eed14888?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vdHdlYXJ8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
+          "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1582995857461-56483477ad53?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vdHdlYXJ8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60" } } }
         }
       }
     ]

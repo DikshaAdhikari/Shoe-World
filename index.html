@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>shoe world</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <link rel='stylesheet' type = 'text/css' href='style.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' href='style.css'>
 </head>
+
 <body>
     <!--Navbar-->
     <nav class='navbar'>
         <div class='navbar-center'>
-            <h3 >THE SHOE <span>WORLD</span></h3>
+            <h3>THE SHOE <span>WORLD</span></h3>
             <div class='cart-btn'>
                 <span class='nav-icon'>
                     <i class="fas fa-cart-plus"></i>
                 </span>
-                    <div class='cart-items'>0</div>
+                <div class='cart-items'>0</div>
             </div>
         </div>
     </nav>
@@ -29,19 +32,33 @@
             <h2>I Want Shoes</h2>
         </div>
         <div class="choice">
-            <span id="filter">Filter &ensp;<i class="fas fa-chevron-down"></i></span>
-            <ul class="filter-item" type='none'>
-                <li>Gender</li>
-                <li>Type</li>
-                <li>Size</li>
-                <li>Brand</li>
-            </ul>
-            <span id="sort">Sort &ensp;<i class="fas fa-chevron-down"></i></span>
-            <ul class="sort-item" type='none'>
-                <li>Price</li>
-                <li>Order</li>
-                <li>Ratings</li>
-            </ul>
+        <div class="filter">
+            <span>Gender</span>
+            <span>Type</span>
+            <span>Size</span>
+            <span>Brand</span>
+        </div>
+            <!-- <label>Apply Filter:</label>
+                <select name="Filter" >
+                    <option>All</option>
+                    <option>Gender</option>
+                    <option>Type</option>
+                    <option>Size</option>
+                    <option>Brand</option>
+                </select> -->
+
+
+            <div>
+                <label>Sort by:</label>
+                <select name="sort" id="sort">
+                    <option>Recommended</option>
+                    <option>Price</option>
+                    <option>Order</option>
+                    <option>Rating</option>
+
+                </select>
+            </div>
+
         </div>
         <div class="products-center">
 
@@ -57,7 +74,7 @@
             <h2>your cart</h2>
             <div class="cart-content">
                 <!--cart-item-->
-               
+
                 <!--close cart-item-->
             </div>
             <div class="cart-footer">
@@ -68,6 +85,7 @@
     </div>
     <!--end of cart-->
 
-    <script src = './main.js'></script>
+    <script src='./main.js'></script>
 </body>
+
 </html>
