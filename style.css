@@ -92,13 +92,32 @@ h3 span {
     display: flex;
     justify-content: space-between;
     width: 85vw;
-    margin: 0 auto 1rem;
+    margin: 0 auto 0.5rem;
+}
+.filter{
+    display: flex;
+    align-items: center;
 }
 .filter span{
-    margin: 0 4px;
+    margin: 0 4px 0 10px;
 }
-.choice label {
+.choice label, .choice span {
     font-weight: bold;
+}
+.hide{
+    display: none;
+}
+.hidden-div{
+    box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    width: 85vw;
+    margin: 0 auto 1rem;
+    padding: 1rem;
+}
+.hidden-div label{
+    margin-right: 18px;
+}
+input{
+    cursor: pointer;
 }
 .products-center {
     width: 90vw;
@@ -190,7 +209,6 @@ h3 span {
     height: 100%;
     overflow: scroll;
     background: rgb(231, 226, 221);
-    ;
     z-index: 3;
     transition: var(--mainTransition);
     padding: 1.5rem;

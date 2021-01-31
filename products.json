@@ -5,6 +5,7 @@
         "fields": {
           "title": "converse all star",
           "price": 2500,
+          "size": "UK 8",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1561909848-977d0617f275?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vdHdlYXJ8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
         }
       },
@@ -13,6 +14,7 @@
         "fields": {
           "title": "pink stilettos",
           "price": 1207,
+          "size": "UK 5",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1592129706885-dc9986b30464?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTI4fHxmb290d2VhcnxlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
         }
       },
@@ -21,6 +23,7 @@
         "fields": {
           "title": "adidas originals",
           "price": 3999,
+          "size": "UK 8",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1574893167411-7d29a0083759?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzN8fGZvb3R3ZWFyJTIwa2lkc3xlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
         }
       },
@@ -29,6 +32,7 @@
         "fields": {
           "title": "black formal",
           "price": 349,
+          "size": "UK 2.5",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1544155815-87a399a4712b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OTZ8fGZvb3R3ZWFyfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
         }
       },
@@ -37,6 +41,7 @@
         "fields": {
           "title": "nike air",
           "price": 13000,
+          "size": "UK 8",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1588273565869-a06552c35ef5?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTV8fGZvb3R3ZWFyfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
         }
       },
@@ -45,6 +50,7 @@
         "fields": {
           "title": "high ankle boots",
           "price": 947,
+          "size": "UK 8",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1534275493774-1bd30c5769aa?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fGJvb3RzfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
         }
       },
@@ -53,6 +59,7 @@
         "fields": {
           "title": "knitted shoes",
           "price": 499,
+          "size": "UK 2.5",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1606846883685-68d1e88c3e98?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8c2xpcHBlcnN8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
         }
       },
@@ -61,6 +68,7 @@
         "fields": {
           "title": "zara bellies",
           "price": 2399,
+          "size": "UK 5",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1559669615-c03ba52afc37?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8c2FuZGFsc3xlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
         }
       },
@@ -69,6 +77,7 @@
         "fields": {
           "title": "the browns",
           "price": 999,
+          "size": "UK 8",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1601285226941-098e5290de0b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb3R3ZWFyfGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60" } } }
         }
       },
@@ -77,6 +86,7 @@
         "fields": {
           "title": "printed boots",
           "price": 3299,
+          "size": "UK 5",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1596738327279-3b9bb3eae6d9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTkxfHxmb290d2VhcnxlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" } } }
         }
       },
@@ -85,6 +95,7 @@
         "fields": {
           "title": "pink sneakers",
           "price": 1499,
+          "size": "UK 2.5",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1499013819532-e4ff41b00669?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjA4fHxmb290d2VhcnxlbnwwfDJ8MHw%3D&auto=format&fit=crop&w=500&q=60" } } }
         }
       },
@@ -93,6 +104,7 @@
         "fields": {
           "title": "nike air force",
           "price": 5246,
+          "size": "UK 8",
           "image": { "fields": { "file": { "url": "https://images.unsplash.com/photo-1582995857461-56483477ad53?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vdHdlYXJ8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60" } } }
         }
       }

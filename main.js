@@ -8,6 +8,36 @@ const cartItems = document.querySelector(".cart-items");
 const cartTotal = document.querySelector(".cart-total");
 const cartContent = document.querySelector(".cart-content");
 const productsDOM = document.querySelector(".products-center");
+const HiddenDiv = document.querySelector('.hidden-div');
+
+const gender = document.getElementById("gender");
+const genderResult = "<input type='checkbox'><label> Men</label><input type='checkbox'><label> Women</label><input type='checkbox'><label> Kids</label>"
+gender.addEventListener('click', ()=>{
+    HiddenDiv.innerHTML=genderResult;
+    HiddenDiv.classList.toggle('hide');
+});
+
+const type = document.getElementById("type");
+const typeResult = "<input type='checkbox'><label> Heels</label><input type='checkbox'><label> Sneakers</label><input type='checkbox'><label> Formals</label>"
+type.addEventListener('click', ()=>{
+    HiddenDiv.innerHTML=typeResult;
+    HiddenDiv.classList.toggle('hide');
+});
+
+const size = document.getElementById("size");
+const sizeResult = "<input type='checkbox'><label> UK 2.5</label><input type='checkbox'><label> UK 5</label><input type='checkbox'><label> UK 8</label>"
+size.addEventListener('click', ()=>{
+    HiddenDiv.innerHTML=sizeResult;
+    HiddenDiv.classList.toggle('hide');
+});
+
+const brand = document.getElementById("brand");
+const brandResult = "<input type='checkbox'><label> adidas</label><input type='checkbox'><label> nike</label><input type='checkbox'><label> zara</label><input type='checkbox'><label> converse</label>"
+brand.addEventListener('click', ()=>{
+    HiddenDiv.innerHTML=brandResult;
+    HiddenDiv.classList.toggle('hide');
+});
+
 let cart = [];
 
 // products
@@ -21,7 +51,8 @@ class Products {
             products = products.map(item => {
                 const {
                     title,
-                    price
+                    price,
+                    size,
                 } = item.fields;
                 const {
                     id
@@ -30,6 +61,7 @@ class Products {
                 return {
                     title,
                     price,
+                    size,
                     id,
                     image
                 };
